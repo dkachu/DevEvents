@@ -1,0 +1,16 @@
+# .coderabbit.yaml
+version: "1"
+reviews:
+  # This allows CodeRabbit to review your PRs even if 
+  # the author is the same user linked to the bot
+  review_self_pr: true
+  
+  # This tells CodeRabbit to status-check all branches
+  auto_review:
+    enabled: true
+    # Use "*" to allow reviews on all branches (feature, develop, etc.)
+    base_branches:
+      - "*"
+
+  # Optional: Keep this true to see feedback on review status
+  review_status: true
